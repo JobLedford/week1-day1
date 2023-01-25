@@ -41,7 +41,7 @@ nav {
 
 /* Main Content */
 main {
-   padding: 50px; /* top, right, bottom, left  or use margin instead */
+  margin: 50px; /* top, right, bottom, left  or use margin instead */
 }
 main h1 {
     color: rgb(129, 141, 179);
@@ -53,7 +53,7 @@ table {
     margin-top:35px;
 }
 table, caption, th, td { /* multiple selector */
-    border:solid 1px #595757;
+    border:solid 1px #000;
 }
 th, td {
     width: 150px;
@@ -61,10 +61,10 @@ th, td {
     text-align:center;
 }
 caption {
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-weight: 600;
     height: 40px;
-    padding-top:15px;
+    padding-top: 15px;
     color: #753a30;
 }
 
@@ -74,16 +74,13 @@ label {
     margin: 15px 0 0 0; /* top, right, bottom, left */
 }
 input {
-    width: 300px;
-    height: 25px;
+    width: 300px;    
 }
 input[type="radio"] {
     width: 25px;
-    height: 15px;
 }
 textarea {
     width: 300px;
-    height: 130px;
 }
 input[type="submit"] {
     display: block;
