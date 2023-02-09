@@ -88,6 +88,11 @@ input[type="submit"] {
     width:100px;
 }
 
+/* Gallery Photos */
+main #album #photo img {
+    width: 400px;
+}
+
 /* Footer */
 footer {
     height: 40px;
